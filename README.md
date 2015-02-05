@@ -1,7 +1,7 @@
 # hubot-jira-spy
-The missing Jira-Slack integration feature.
+The missing Jira-Slack integration feature, **comments**.
 
-[Hubot](https://hubot.github.com/) hears your [Jira](https://www.atlassian.com/software/jira) events, chat comments to [Slack](https://slack.com/).
+[Hubot](https://hubot.github.com/) hears your [Jira](https://www.atlassian.com/software/jira) events, chat **comments** to [Slack](https://slack.com/).
 
 
 ## Example Message on Slack
