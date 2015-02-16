@@ -15,8 +15,6 @@ Hook URL is `http://your-hubot-listener/hubot/chat-jira-comment/:room`
 
 Make sure the `Issue Update` Events can be post.
 
-![](https://raw.githubusercontent.com/mnpk/hubot-jira-spy/master/jira-setup.png)
-
 ## Hubot Setting
 Add this script to your hubot-slack.
 
