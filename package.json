@@ -15,5 +15,5 @@
         "name" : "mnpk",
         "email" : "mnncat@gmail.com"
     },
-    "main" : "./scripts/hubot-jira-spy.coffee"
+    "main": "index.coffee"
 }
