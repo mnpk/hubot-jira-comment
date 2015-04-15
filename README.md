@@ -1,10 +1,7 @@
 # hubot-jira-comment
 [Slack](https://slack.com/)'s [Jira](https://www.atlassian.com/software/jira) integration does not support for **comments**, yet.
+
 [Hubot](https://hubot.github.com/) can do that for you :)
-
-
-
-## Example
 
 ![](https://raw.githubusercontent.com/mnpk/hubot-jira-spy/master/jira-spy-example.png)
 
