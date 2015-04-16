@@ -1,7 +1,7 @@
 {
-    "name" : "hubot-jira-spy",
+    "name" : "hubot-jira-comment",
     "version" : "0.1.0",
-    "description" : "Hubot hears Jira comments, chat to Slack",
+    "description" : "Hubot fowards Jira comments to Slack",
     "keywords" : [
         "hubot",
         "jira",
@@ -9,7 +9,7 @@
     ],
     "repository" : {
         "type": "git",
-        "url": "https://github.com/mnpk/hubot-jira-spy.git"
+        "url": "https://github.com/mnpk/hubot-jira-comment.git"
     },
     "author" : {
         "name" : "mnpk",
