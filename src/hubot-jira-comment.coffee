@@ -1,11 +1,11 @@
 # Description:
-#   hubot spying jira comments and chat to your room
+#   Forward Jira comments to Slack.
 #
 # Dependencies:
 #   None
 #
 # Configuration:
-#   None
+#   HUBOT_JIRA_URL
 #
 # Commands:
 #   None
