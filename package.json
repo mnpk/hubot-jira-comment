@@ -1,7 +1,7 @@
 {
     "name" : "hubot-jira-comment",
     "version" : "0.1.0",
-    "description" : "Hubot fowards Jira comments to Slack",
+    "description" : "Hubot forwards Jira comments to Slack",
     "keywords" : [
         "hubot",
         "jira",
