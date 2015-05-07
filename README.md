@@ -76,10 +76,10 @@ $ curl \
     }
   }
 }' \
-http://localhost:9009/hubot/chat-jira-comment/test-hubot
+http://localhost:9009/hubot/chat-jira-comment/general
 ```
 
-If you ran hubot using slack-adapter, you will receive a message from Hubot on `#test-hubot` channel.
+If you ran hubot using slack-adapter, you will receive a message from Hubot on `#general` channel.
 
 If you ran hubot using shell-adapter, you will receive a message like below on your console.
 ```
