@@ -99,9 +99,8 @@ You can add an webhook on `Setting > System > Advanced > WebHooks` menu.
 
 Create new webhook by click on `Create a WebHook` button.
 
-URL is `http://your-hubot-listener/hubot/chat-jira-comment/:room`
-
-(e.g. If your hubot address is 172.16.45.12, your hubot's `PORT` is 9009, your chat room name is #general, than the URL will be `http://172.16.45.12:9009/hubot/chat-jira-comment/general')
+URL is `http://<your-hubot-listener>:<port>/hubot/chat-jira-comment/<room>` with your hubot address, port, room.
+(e.g. If your hubot's address is 172.16.45.12, your hubot's `PORT` is 9009, your chat room name is #general, than the URL will be `http://172.16.45.12:9009/hubot/chat-jira-comment/general`)
 
 Make sure to check on `Issue > update` checkbox.
 
