@@ -28,7 +28,7 @@ Add this package to external-scripts list.
 ```
 $ echo '["hubot-jira-comment"]' > external-scripts.json
 ```
-Now your hubot will load this package when it start.
+Now your hubot will load this package when it starts.
 
 ##### 1.3 Set environment variables
 
@@ -83,7 +83,7 @@ If you ran hubot using slack-adapter, you will receive a message from Hubot on `
 
 If you ran hubot using shell-adapter, you will receive a message like below on your console.
 ```
-hubot> *key summary* _(http://domain/jira/browse/key)_
+hubot> *key summary* _(http://172.16.45.12/jira/browse/key)_
 @mnpk's comment:
 ```hello,hubot-jira-comment```
 ```
