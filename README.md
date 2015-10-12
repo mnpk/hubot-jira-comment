@@ -85,7 +85,8 @@ If you ran hubot using shell-adapter, you will receive a message like below on y
 ```
 hubot> *key summary* _(http://172.16.45.12/jira/browse/key)_
 @mnpk's comment:
-```hello,hubot-jira-comment```
+>>>
+hello,hubot-jira-comment
 ```
 
 
