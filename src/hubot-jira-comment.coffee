@@ -21,5 +21,6 @@ module.exports = (robot) ->
       issue = "#{body.issue.key} #{body.issue.fields.summary}"
       url = "#{process.env.HUBOT_JIRA_URL}/browse/#{body.issue.key}"
       content = body.comment.body.replace(/\[~([a-zA-Z0-9]+)\]/g,'@$1')
-      robot.messageRoom room, "*#{issue}* _(#{url})_#{user}\n@#{body.comment.author.name}'s comment:\n```#{content}```"
+      cc = if body.user then ' (cc @' + body.user.name + ')' else ''
+      robot.messageRoom room, "*#{issue}* _(#{url})_\n@#{body.comment.author.name}'s comment#{cc}:\n```#{content}```"
     res.send 'OK'
