@@ -23,5 +23,5 @@ module.exports = (robot) ->
       content = body.comment.body.replace(/\[~([a-zA-Z0-9]+)\]/g,'@$1')
       assignee = body.issue?.fields?.assignee?.name
       cc = if assignee then ' (cc @' + assignee + ')' else ''
-      robot.messageRoom room, "*#{issue}* _(#{url})_\n@#{body.comment.author.name}'s comment#{cc}:\n```#{content}```"
+      robot.messageRoom room, "*#{issue}* _(#{url})_\n> @#{body.comment.author.name}'s comment#{cc}:\n> #{content}"
     res.send 'OK'
