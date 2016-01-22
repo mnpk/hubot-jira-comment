@@ -20,5 +20,8 @@ module.exports = (robot) ->
     if body.webhookEvent == 'jira:issue_updated' && body.comment
       issue = "#{body.issue.key} #{body.issue.fields.summary}"
       url = "#{process.env.HUBOT_JIRA_URL}/browse/#{body.issue.key}"
-      robot.messageRoom room, "*#{issue}* _(#{url})_\n@#{body.comment.author.name}'s comment:\n```#{body.comment.body}```"
+      content = body.comment.body.replace(/\[~([a-zA-Z0-9]+)\]/g,'@$1')
+      assignee = body.issue?.fields?.assignee?.name
+      cc = if assignee then ' (cc @' + assignee + ')' else ''
+      robot.messageRoom room, "*#{issue}* _(#{url})_\n> @#{body.comment.author.name}'s comment#{cc}:\n> #{content}"
     res.send 'OK'
